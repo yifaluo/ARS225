@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title p{
+    font-family: cursive;
+    line-height: 50px;
+    font-size:26px;
+    font-weight: bold;
+    color:red;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+}
+.contentOne{
+    width: 505;
+    margin: 10px auto;
+    text-align: center;
+}
+.image-responsive{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.contentTwo{
+    display: flex;
+}
+.contentImage{
+    width: 50%;
+    text-align: center;
+}
+.op{
+    opacity: 0.3;
+}
+.contentImage img{
+    height: 200px;
+}
+.contentThree{
+    margin: 10px auto;
+}
+.contentA{
+    width: 28%;
+    float: left;
+    padding: 1%;
+}
+.contentB{
+    width: 60%;
+    float: right;
+    padding: 1%;
+}
+.contentA p,.contentB p{
+    line-height: 25px;
+    font-size: 14px;
+    font-family: monospace;
+}
